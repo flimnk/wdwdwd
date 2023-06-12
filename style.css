@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+:root{
+ --branco-principal:#FFFFFF;
+ --cinza-principal:#C0C0C0;
+--botao-azul:#18065d;
+--cor-de-fundo:rgb(0, 0, 0);
+--fonte-principal:'Inter';  
+--tamanho-aviso:12px;
+--tamanho-titulo:28px;
+--cor-conteiner_titulor:white;
+
+}
+*{
+    margin:0; 
+    padding: 0
+}
+
+
+.cabecalho{
+display: flex;
+margin: 8em 0 0 0;
+}
+
+body{   
+color:var(--branco-principal);
+background-color: var(--cor-de-fundo);
+font-size: 16px;
+font-family: var(--fonte-principal);
+font-weight: 400;
+}
+ 
+
+.titulo_principal{
+    
+    margin: 1em 1em 0 0;
+    text-align: center;
+    color:#1F41BB;
+
+   
+}
+
+.principal{
+background-repeat: no-repeat;
+background-size: contain;
+align-items: center;
+text-align: center;
+
+
+}
+
+
+.container{
+    height:100vh ;
+   display: flex;
+  
+
+ 
+ 
+ 
+ 
+}   
+.conteiner_caixa{
+    margin: 56px 202px 23px 202px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  margin-bottom: 100px;
+}
+
+
+
+
+
+.container_titulo{
+ 
+font-size: var(--tamanho-titulo);
+font-weight: 700;
+color:var(--cor-conteiner_titulor);
+}
+.container_imagem { margin: 1em 0 2em 0; 
+}
+
+.conteiner_caixa_links{
+    display: flex;
+    flex-direction:column ;
+    gap: 20px;
+}
+
+
+
+
+.container_botao{
+    border: 1px solid var(--branco-principal);
+    border-color: white;
+    background-color:var(--botao-azul);
+    border-radius: 8px;
+padding: 1em;
+color: var(--branco-principal);
+display: block;
+text-decoration: none;
+}
+.container_botao:hover{
+    
+    background-color: gray;
+}
+
+
+
+
+.titulo_principal_paragraf{
+color: #0eccbf;
+font-size: 15px;
+}
+
+
+.botao_secundario{
+    border: 1px solid var(--branco-principal);
+    border-color: white;
+    background-color:var(--botao-azul);
+   
+}
+
+.conteinar_img{
+width: 50%;
+width: 50%;
+}
+
+
+.principal_low{
+display: grid;
+grid-template-columns: 50% 50%;
+
+}
+
+.principal_low_right{
+  display: flex;
+    flex-direction: column;
+    gap: 10px;
+background-color: #000000;
+border: 1px solid var(--branco-principal);
+border-color: white;
+border-radius: 49px;
+padding: 33px 0px;
+
+}
+
+.low_titulo_right{
+    color: rgb(227, 215, 215);
+    font-size: 25px;
+
+}
+
+.low_subtitulo_right{
+    font-size: 20px;
+
+
+}
+
+.low_paragrafos_right{
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 17px;
+}
+
+.principal_low_one{
+ margin: 20px;
+
+}
+
+.principal_low_secu{
+    margin: 20px;
+}
